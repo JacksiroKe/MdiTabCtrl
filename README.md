@@ -1,5 +1,5 @@
 # MDI TAB CONTROL
-=============
+=================
 
 A highly configurable MDI tab control for c# to use as tabbed MDI forms ...
 <img src="mditabcontrol.png"/>
