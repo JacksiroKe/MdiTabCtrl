@@ -50,9 +50,9 @@ The icon and the text in the tab are the Icon and Text properties of the form, r
 The tab shape can be changed by the GetTabRegion event. The tab background can be OwnerDraw by the event TabPaintBackGround, and the border can be handled by the event TabPaintBorder. The events occur in the order mentioned.
 
 ## USING THE CONTROL
-To use the control, you first need to add it to a form. Ideally, you should dock the control in it. After that, you can change all the properties through the designer.
+* To use the control, you first need to add it to a form. Ideally, you should dock the control in it. After that, you can change all the properties through the designer.
 
-To insert a TabPage (form) in the control:
+* To insert a TabPage (form) in the control:
 
   Form cform; //Declare child Form
   cform = new ChildForm(); //call an instance of a class you want to show in a tab
@@ -60,6 +60,6 @@ To insert a TabPage (form) in the control:
   cform.Text = "This is Tab " + tabcount; //Declare text for this tab
   TabControl1.TabPages.Add(cform);
 
-You don't show the form, instead you just add it to the control. Very simple, isn't it? On an existing program, you just need to add the control to the main form, and where you have the Show call for the form, you just replace by the Add method.
+* You don't show the form, instead you just add it to the control. Very simple, isn't it? On an existing program, you just need to add the control to the main form, and where you have the Show call for the form, you just replace by the Add method.
   TabControl1.TabPages.Add(cform);
  
