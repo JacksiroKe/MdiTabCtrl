@@ -1,10 +1,9 @@
 # MDI TAB CONTROL
-=================
 
 A highly configurable MDI tab control for c# to use as tabbed MDI forms ...
 <img src="mditabcontrol.png"/>
 
-FEATURES OF THIS PLUGIN
+## FEATURES OF THIS PLUGIN
 This tab control is specific to creating a MDI interface with one tab page for each form. Some of the behaviours that were implemented are:
 1. Always open the new page at the first tab
 2. Hide the tab pages that can't fit in the screen
@@ -18,7 +17,7 @@ This tab control is specific to creating a MDI interface with one tab page for e
 10. Expose the maximum of functionality and configurability as possible
 11. Very simple to use
 
-ADDING THE CONTROL TO YOUR TOOLBOX
+## ADDING THE CONTROL TO YOUR TOOLBOX
 1. In Solution Explorer, right-click the project node and click Add Reference.
 2. In the Add Reference dialog box, browse to the dll in the packages folder in this attached project.
 3. Select the tab control dll, and then click OK. Tip.
@@ -27,7 +26,7 @@ ADDING THE CONTROL TO YOUR TOOLBOX
 6. Browse to that DLL again.
 7. Select the TabControl
 
-WHAT CAN BE CUSTOMIZED
+## WHAT CAN BE CUSTOMIZED
 Almost everything. To understand the control, let's take a look at the objects and regions.
 <img src="mditab_control.png"/>
 * The first two lines are the TopSeparator
@@ -50,7 +49,7 @@ The icon and the text in the tab are the Icon and Text properties of the form, r
 
 The tab shape can be changed by the GetTabRegion event. The tab background can be OwnerDraw by the event TabPaintBackGround, and the border can be handled by the event TabPaintBorder. The events occur in the order mentioned.
 
-USING THE CONTROL
+## USING THE CONTROL
 To use the control, you first need to add it to a form. Ideally, you should dock the control in it. After that, you can change all the properties through the designer.
 
 To insert a TabPage (form) in the control:
@@ -63,6 +62,4 @@ To insert a TabPage (form) in the control:
 
 You don't show the form, instead you just add it to the control. Very simple, isn't it? On an existing program, you just need to add the control to the main form, and where you have the Show call for the form, you just replace by the Add method.
   TabControl1.TabPages.Add(cform);
-  
-UPDATES
-Will be working on more updates since the control was ported from Eduardo Oliveira's article on code project https://www.codeproject.com/Articles/16436/A-highly-configurable-MDI-tab-control-from-scratch which is a vb.net project
+ 
