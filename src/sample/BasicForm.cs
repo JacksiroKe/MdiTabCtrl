@@ -2,9 +2,9 @@
 
 namespace MdiTabCtrlSample
 {
-    public partial class ChildForm : Form
+    public partial class BasicForm : Form
     {
-        public ChildForm()
+        public BasicForm()
         {
             InitializeComponent();
         }

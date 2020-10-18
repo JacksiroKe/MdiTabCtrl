@@ -1,6 +1,6 @@
 ﻿namespace MdiTabCtrlSample
 {
-    partial class ChildForm
+    partial class BasicForm
     {
         /// <summary>
         /// Required designer variable.
