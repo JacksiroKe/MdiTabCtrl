@@ -1,7 +1,7 @@
 # MDI TAB CONTROL
 
 A highly configurable MDI tab control for c# to use as tabbed MDI forms ...
-<img src="mditabcontrol.png"/>
+<img src="screenshots/mditabcontrol2.png"/>
 
 ## FEATURES OF THIS CONTROL
 This tab control is specific to creating a MDI interface with one tab page for each form. Some of the behaviours that were implemented are:
@@ -19,7 +19,7 @@ This tab control is specific to creating a MDI interface with one tab page for e
 
 ## WHAT CAN BE CUSTOMIZED IN THIS CONTROL
 Almost everything. To understand the control, let's take a look at the objects and regions.
-<img src="mditab_control.png"/>
+<img src="screenshots/mditab_control.png"/>
 * The first two lines are the TopSeparator
 * Followed by the TabTop
 * On the left the Tabs area
