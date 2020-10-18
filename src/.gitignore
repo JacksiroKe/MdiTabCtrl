@@ -15,7 +15,7 @@
 
 # Mono auto generated files
 mono_crash.*
-src/*.exe
+*.exe
 
 # Build results
 [Dd]ebug/

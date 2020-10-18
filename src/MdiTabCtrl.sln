@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MdiTabCtrl", "src\MdiTabCtrl.vbproj", "{7F98F809-CE14-43D5-B3DF-40D8F0B7A1AF}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MdiTabCtrl", "MdiTabCtrl.vbproj", "{7F98F809-CE14-43D5-B3DF-40D8F0B7A1AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
