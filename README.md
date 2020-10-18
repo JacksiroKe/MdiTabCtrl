@@ -1,6 +1,6 @@
 # MDI TAB CONTROL
 
-A highly configurable MDI tab control for c# to use as tabbed MDI forms ...
+Well behold a highly configurable MDI tab control for c# to use as tabbed MDI forms
 <img src="screenshots/mditabcontrol2.png"/>
 
 ## FEATURES OF THIS CONTROL
